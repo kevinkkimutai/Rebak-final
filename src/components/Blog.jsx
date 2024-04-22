@@ -16,7 +16,7 @@ function Blog() {
           <p className="text-lg text-gray-700">Explore fencing tips, industry insights, and company updates in our blog. Stay informed, inspired, and discover new ways to enhance your property with our expert advice.</p>
             
           </div>
-    <div className="grid md:grid-cols-4 grid-cols-1 gap-2 ">
+    <div className="grid md:grid-cols-4 grid-cols-2 gap-2 ">
   
 
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">

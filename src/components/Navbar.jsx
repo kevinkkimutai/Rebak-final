@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 
 const Navbar = ({ handleLogout }) => {
@@ -67,7 +67,31 @@ const Navbar = ({ handleLogout }) => {
         <a href="/about" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 hover:text-black md:dark:hover:bg-transparent dark:border-gray-700">About</a>
       </li>
       <li>
-        <a href="/services" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 hover:text-black md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+      
+<button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" className="text-white flex ms-2" type="button">Services 
+<svg className="w-2.5 h-4.5 ms-3 mt-2.5 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+<path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4"/>
+</svg>
+</button>
+
+{/* <!-- Dropdown menu --> */}
+<div id="dropdownHover" className="z-10  hidden bg-green-700 divide-y mt-2 divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+    <ul className="py-2  text-white font-serif font-bold text-md " aria-labelledby="dropdownHoverButton">
+      <li>
+        <a href="/perimeter" className="block px-4 py-2 hover:bg-gray-100 hover:text-black ">Perimeter Fence</a>
+      </li>
+      <li>
+        <a href="/chainlink" className="block px-4 py-2 hover:bg-gray-100 hover:text-black">ChainLink Fence</a>
+      </li>
+      <li>
+        <a href="/barbed" className="block px-4 py-2 hover:bg-gray-100 hover:text-black">Barbed Wire Fence</a>
+      </li>
+      <li>
+        <a href="/wooden" className="block px-4 py-2 hover:bg-gray-100 hover:text-black">Wooden Fence</a>
+      </li>
+    </ul>
+</div>
+
       </li>
       <li>
         <a href="/gallery" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 hover:text-black md:dark:hover:bg-transparent dark:border-gray-700">Gallery</a>

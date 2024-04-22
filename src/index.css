@@ -16,13 +16,13 @@
   display: none;
 }
 
-/* .hero {
+.hero {
   background-image: url('./assets/barb.jpg');
   background-position: relative;
   background-repeat: no-repeat;
   background-size: cover;
- 
-} */
+ height: 65vh;
+}
 
 
 .ul1 {
@@ -95,4 +95,10 @@ color: #fff;
 }
 .ul1 li:nth-child(6) a:before {
   background: #000000;
+}
+
+@media (max-width: 768px) {
+.hero {
+  height: 50vh;
+}
 }

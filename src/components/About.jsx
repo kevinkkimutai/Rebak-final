@@ -1,5 +1,6 @@
 import React from "react";
 import fence from "../assets/fence.png";
+
 const About = () => {
     const List = ({ text }) => (
         <p className="mb-5 flex items-center text-lg font-medium text-body-color">
@@ -20,6 +21,7 @@ const About = () => {
             <p className="text-lg text-gray-700">Get to know Rebak—your fencing solution experts. Learn about our dedication to crafting custom fences for safety and style. Trust us for quality fencing in Kenya.</p>
               
             </div>
+        
     <div className="border-b border-body-color/[.15] ">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-2">
         <div className="w-full ">
