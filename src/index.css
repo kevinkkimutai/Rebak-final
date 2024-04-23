@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 #root {
   max-width: 1600px;
   margin: 0 auto;
@@ -17,13 +16,46 @@
 }
 
 .hero {
-  background-image: url('./assets/barb.jpg');
+  background-image: url('./assets/fenve.jpg');
   background-position: relative;
   background-repeat: no-repeat;
   background-size: cover;
- height: 65vh;
+  height: 65vh;
+ 
+}
+.heroz {
+  
+}
+.chain {
+  background-image: url('./assets/cahinz1.jpg');
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+ 
+}
+.barbed {
+  background-image: url('./assets/barbedwire.jpg');
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
 }
 
+.perimeter {
+  background-image: url('./assets/fenve.jpg');
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+}
+.wooden {
+  background-image: url('./assets/pixelcut-export.png');
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+}
 
 .ul1 {
   display: flex;
@@ -97,8 +129,13 @@ color: #fff;
   background: #000000;
 }
 
+
+
 @media (max-width: 768px) {
-.hero {
-  height: 50vh;
-}
-}
+  .hero {
+    height: 50vh;
+  }
+  .heroz {
+    height: auto;
+  }
+  }
