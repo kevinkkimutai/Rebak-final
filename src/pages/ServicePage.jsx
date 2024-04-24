@@ -27,7 +27,7 @@ function ServicePage() {
       </ol>
     </nav>
     <div className="border mt-4 mx-8"></div>
-    <section className="relative z-10 py-16 md:py-10 mt-4 bg-gray-300 mx-4">
+    <section className="relative z-10 py-16 md:py-10 mt-4  mx-4">
     <Features/>
       <div className="absolute bottom-0 left-0 right-0 z-[-1]">
         <img src="/shape.svg" alt="shape" className="w-full h-screen opacity-10 bg-transparent" />

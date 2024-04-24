@@ -10,7 +10,9 @@ const Layout = () => {
     <>
      
       <NavBar />
-       <Outlet />
+      <div className="outlet">
+       <Outlet/>
+       </div>
        <FloatingWhatsApp
         phoneNumber="254707414664"
         accountName="Rebak Solutions"

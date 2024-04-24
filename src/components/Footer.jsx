@@ -6,7 +6,7 @@ const Footer = () => {
 
 <div className="relative  ">
     <footer className="bg-green-800 ">
-    <div className="mx-auto w-full max-w-screen-2xl p-4 py-6 lg:py-8">
+    <div className="mx-auto w-full max-w-screen p-4 py-6 lg:py-8">
   
         <div className="sm:flex sm:items-center sm:justify-between">
             <a href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
@@ -21,12 +21,13 @@ const Footer = () => {
                     <a href="/gallery" className="hover:underline me-4 md:me-6">Gallery</a>
                 </li>
                 <li>
-                    <a href="/services" className="hover:underline me-4 md:me-6">Services</a>
+                    <a href="/chainlink" className="hover:underline me-4 md:me-6">Services</a>
                 </li>
                 <li>
                     <a href="/contact" className="hover:underline">Contact</a>
                 </li>
             </ul>
+            
         </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between mx-auto text-center">
