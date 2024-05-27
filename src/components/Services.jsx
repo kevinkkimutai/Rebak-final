@@ -3,6 +3,7 @@ import param from "../assets/services/perimeterfence.jpg";
 import barbed from "../assets/services/barbedwire.jpg";
 import wooden from "../assets/services/woodenfence.jpg";
 import chainlink from "../assets/services/razor-chain.jpg";
+import construct from "../assets/construct/gate2 (3).jpg";
 
 function Services() {
   return (
@@ -15,7 +16,7 @@ function Services() {
           <p className="text-lg text-gray-700">Explore our range of expert fencing solutions designed to enhance your property&apos;s safety and aesthetics.</p>
             
           </div>
-    <div className="grid md:grid-cols-4 grid-cols-2 gap-2 mx-2">
+    <div className="grid md:grid-cols-5 grid-cols-2 gap-2 mx-2">
   
 
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -36,6 +37,17 @@ function Services() {
     <div className="p-1 text-center">
         
         <p className="  font-Bold font-serif text-2xl text-gray-700 dark:text-gray-400">Barbed Fence</p>
+       
+    </div>
+</div>
+
+<div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <a href="#">
+        <img className="rounded-t-lg" src={construct} alt="" />
+    </a>
+    <div className="p-1 text-center">
+        
+        <p className=" font-Bold font-serif text-2xl text-gray-700 dark:text-gray-400">Gate Fence</p>
        
     </div>
 </div>

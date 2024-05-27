@@ -54,6 +54,13 @@
   background-size: cover;
   height: 65vh;
 }
+.gate {
+  background-image: url('./assets/construct/gate2.jpg');
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+}
 .wooden {
   background-image: url('./assets/pixelcut-export.png');
   background-position: relative;

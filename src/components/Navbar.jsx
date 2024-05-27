@@ -89,6 +89,9 @@ const Navbar = ({ handleLogout }) => {
       <li>
         <a href="/wooden" className="block px-4 py-2 hover:bg-gray-100 hover:text-black">Wooden Fence</a>
       </li>
+      <li>
+        <a href="/gate" className="block px-4 py-2 hover:bg-gray-100 hover:text-black">Gate Fence</a>
+      </li>
     </ul>
 </div>
 

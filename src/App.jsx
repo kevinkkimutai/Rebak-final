@@ -5,6 +5,7 @@ import {
   ChainLinkService,
   ContactPage,
   Gallery,
+  GateFence,
   Landing,
   NotFound,
   Perimeter,
@@ -30,6 +31,8 @@ export default function App() {
                 <Route path="/wooden" element={<Wooden />}  />
                 <Route path="/barbed" element={<BarbedFence />}  />
                 <Route path="/perimeter" element={<Perimeter />}  />
+                <Route path="/gate" element={<GateFence />}  />
+
 
           </Route>
 
