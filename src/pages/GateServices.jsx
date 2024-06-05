@@ -1,5 +1,10 @@
 import React from 'react'
 import gate from '../assets/construct/gate2 (3).jpg'
+import gate1 from '../assets/construct/3b_Wood-Metal-Dumpster-Enclosure-Gates-500x480.jpg'
+import gate2  from '../assets/construct/5b_Cantilever-Chain-Link-Gate-500x500.jpg'
+import gate3 from '../assets/construct/Commercial-Steel-Walk-Gate.jpg'
+import gate4 from '../assets/construct/Comptemporary-Iron-Walk-Gate.jpg'
+
 const GateServices = () => {
   return (
     <div className="mt-16">
@@ -56,16 +61,16 @@ const GateServices = () => {
         <img className="max-h-56 max-w-full rounded-lg w-full h-full" src={gate} alt="" />
     </div>
     <div>
-        <img className="max-h-56 w-full h-full max-w-full rounded-lg" src={gate} alt="" />
+        <img className="max-h-56 w-full h-full max-w-full rounded-lg" src={gate1} alt="" />
     </div>
     <div>
-        <img className="max-h-56 w-full h-full max-w-full rounded-lg" src={gate} alt="" />
+        <img className="max-h-56 w-full h-full max-w-full rounded-lg" src={gate2} alt="" />
     </div>
     <div>
-        <img className="max-h-56 w-full h-full  max-w-full rounded-lg" src={gate} alt="" />
+        <img className="max-h-56 w-full h-full  max-w-full rounded-lg" src={gate3} alt="" />
     </div>
     <div>
-        <img className="max-h-56 w-full h-full max-w-full rounded-lg" src={gate} alt="" />
+        <img className="max-h-56 w-full h-full max-w-full rounded-lg" src={gate4} alt="" />
     </div>
     <div>
         <img className="max-h-56 w-full h-full max-w-full rounded-lg" src={gate} alt="" />
