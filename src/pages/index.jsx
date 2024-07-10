@@ -11,6 +11,7 @@ export { default as Wooden} from "./Wooden";
 export { default as Perimeter} from "./Perimeter";
 export { default as BarbedFence} from "./BarbedFence";
 export { default as GateFence} from "./GateServices";
+export { default as Concrete } from "./ConcreteFence";
 
 
 

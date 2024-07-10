@@ -3,6 +3,7 @@ import {
   AboutPage,
   BarbedFence,
   ChainLinkService,
+  Concrete,
   ContactPage,
   Gallery,
   GateFence,
@@ -32,6 +33,8 @@ export default function App() {
                 <Route path="/barbed" element={<BarbedFence />}  />
                 <Route path="/perimeter" element={<Perimeter />}  />
                 <Route path="/gate" element={<GateFence />}  />
+                <Route path="/concrete" element={<Concrete />}  />
+
 
 
           </Route>

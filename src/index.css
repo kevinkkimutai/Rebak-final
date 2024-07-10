@@ -61,6 +61,13 @@
   background-size: cover;
   height: 65vh;
 }
+.concrete {
+  background-image: url('./assets/concrete/concrete4.jpeg');
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+}
 .wooden {
   background-image: url('./assets/pixelcut-export.png');
   background-position: relative;
@@ -151,3 +158,51 @@ color: #fff;
     height: auto;
   }
   }
+
+
+
+
+.glide__arrow--left {
+  left: 10px;
+}
+
+.glide__arrow--right {
+  right: 10px;
+}
+
+.glide__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  opacity: 1;
+}
+
+.glide__arrow--left {
+  left: 10px; /* Adjust as needed */
+}
+
+.glide__arrow--right {
+  right: 10px; /* Adjust as needed */
+}
+
+.glide__arrow div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem; /* 9 * 0.25rem */
+  height: 2.25rem;
+  background-color: #920a0a; /* bg-gray-800 */
+  border-radius: 0.75rem; /* rounded-xl */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.glide__arrow div:hover {
+  background-color: #ff1414; /* hover:bg-red-200 */
+}
+
+.glide__arrow i {
+  color: #1fcdd3; /* text-red-200 */
+  font-size: 1.5rem; /* text-2xl */
+}
+

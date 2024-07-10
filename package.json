@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@glidejs/glide": "^3.6.2",
     "@reduxjs/toolkit": "^2.0.1",
     "@syncfusion/ej2-react-popups": "^19.4.53",
     "@testing-library/jest-dom": "^5.17.0",

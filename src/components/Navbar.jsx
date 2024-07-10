@@ -32,7 +32,7 @@ const Navbar = ({ handleLogout }) => {
 
   <div className="max-w-screen flex flex-wrap items-center justify-between mx-aut p-2">
   <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-      <img src="/logo.jpg" className="h-8 w-8 rounded-xl" alt="Rebak Logo" />
+      <img src="/logo.png" className="h-8 w-8 rounded-xl border" alt="Rebak Logo" />
       <span className="self-center text-2xl font-semibold whitespace-nowrap text-white flex">Rebak <span className="hidden md:block ms-2"> Solutions</span></span>
   </a>
   <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse ">
@@ -91,6 +91,9 @@ const Navbar = ({ handleLogout }) => {
       </li>
       <li>
         <a href="/gate" className="block px-4 py-2 hover:bg-gray-100 hover:text-black">Gate Fence</a>
+      </li>
+      <li>
+        <a href="/concrete" className="block px-4 py-2 hover:bg-gray-100 hover:text-black">Concrete Fence</a>
       </li>
     </ul>
 </div>
