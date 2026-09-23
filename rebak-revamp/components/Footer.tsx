@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Phone } from "lucide-react";
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaTiktok, FaXTwitter } from "react-icons/fa6";
 import { NAV, PHONE, WHATSAPP } from "@/lib/data";
 import Logo from "./Logo";
 
@@ -33,6 +33,14 @@ export default function Footer() {
             className="grid size-8 place-items-center rounded-full bg-linear-to-br from-pink-500 to-orange-400"
           >
             <FaInstagram size={14} />
+          </a>
+          <a
+            aria-label="TikTok"
+            href="https://www.tiktok.com/@frankrebak?_r=1&_t=ZS-99y12gTpDj2"
+            target="_blank" rel="noopener noreferrer"
+            className="grid size-8 place-items-center rounded-full bg-black"
+          >
+            <FaTiktok size={14} />
           </a>
           <a
             aria-label="X"

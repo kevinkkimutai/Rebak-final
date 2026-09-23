@@ -9,7 +9,7 @@ import {
   FaInstagram,
   FaWhatsapp,
 } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaTiktok, FaXTwitter } from "react-icons/fa6";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -32,6 +32,7 @@ export default function Header() {
           <div className="flex items-center gap-2 text-white">
             <a aria-label="Facebook" href="https://web.facebook.com/people/Rebak-Fencing-Solutions/100087678855591/" target="_blank" rel="noopener noreferrer" className="grid size-6 place-items-center rounded-full bg-[#1877f2]"><FaFacebookF size={12} /></a>
             <a aria-label="Instagram" href="https://www.instagram.com/rebak_fencing_solutions/" target="_blank" rel="noopener noreferrer" className="grid size-6 place-items-center rounded-full bg-linear-to-br from-pink-500 to-orange-400"><FaInstagram size={12} /></a>
+            <a aria-label="TikTok" href="https://www.tiktok.com/@frankrebak?_r=1&_t=ZS-99y12gTpDj2" target="_blank" rel="noopener noreferrer" className="grid size-6 place-items-center rounded-full bg-black"><FaTiktok size={12} /></a>
             <a aria-label="X" href="https://twitter.com/FencingRebak" target="_blank" rel="noopener noreferrer" className="grid size-6 place-items-center rounded-full bg-black"><FaXTwitter size={12} /></a>
             <a aria-label="WhatsApp" href={WHATSAPP} target="_blank" rel="noopener noreferrer" className="grid size-6 place-items-center rounded-full bg-[#25d366]"><FaWhatsapp size={12} /></a>
           </div>
