@@ -8,7 +8,7 @@ const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-jakart
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://rebakfencing.com",
   ),
   title: "Rebak Fencing Solutions | Quality Fencing Solutions in Kenya",
   description: "Design and installation of barbed, concrete, wooden, chainlink and perimeter fences across Kenya. Get a free quote within 24 hours.",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "Rebak Fencing Solutions",
     images: [
       {
-        url: "/public/logo.jpg",
+        url: "/logo.jpg",
         width: 1170,
         height: 1170,
         alt: "Rebak Fencing Solutions concrete perimeter fence",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Rebak Fencing Solutions | Quality Fencing Solutions in Kenya",
     description: "Design and installation of barbed, concrete, wooden, chainlink and perimeter fences across Kenya. Get a free quote within 24 hours.",
     creator: "@FencingRebak",
-    images: ["/public/logo.jpg"],
+    images: ["/logo.jpg"],
   },
 };
 
