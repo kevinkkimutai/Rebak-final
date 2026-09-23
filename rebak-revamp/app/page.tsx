@@ -15,6 +15,7 @@ import {
   Phone,
   Quote,
   MessagesSquare,
+  CircleUserRound,
 } from "lucide-react";
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import Header from "@/components/Header";
@@ -344,13 +345,9 @@ export default function Home() {
                 <Quote size={20} className="text-brand" />
                 <p className="mt-2 text-sm text-ink/80">{t.quote}</p>
                 <footer className="mt-4 flex items-center gap-3">
-                  <Image
-                    src={t.img}
-                    alt=""
-                    width={40}
-                    height={40}
-                    className="size-10 rounded-full object-cover"
-                  />
+                  <span className="grid size-10 shrink-0 place-items-center rounded-full bg-brand-soft text-brand-dark" aria-hidden="true">
+                    <CircleUserRound size={25} strokeWidth={1.75} />
+                  </span>
                   <div>
                     <p className="text-sm font-bold">{t.name}</p>
                     <p className="text-[11px] text-ink/60">{t.role}</p>

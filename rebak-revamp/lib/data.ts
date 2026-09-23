@@ -53,9 +53,9 @@ export const STEPS = [
 ];
 
 export const TESTIMONIALS = [
-  { name: "James Mwangi", role: "Homeowner, Nairobi", img: "/images/t1.jpg", quote: "Rebak Solutions did an amazing job on our perimeter fence. The team was professional, on time, and the quality is excellent." },
-  { name: "Sarah Wanjiku", role: "Business Owner, Thika", img: "/images/t2.jpg", quote: "The chainlink fence installed on our farm is strong and well done. Great service and affordable pricing." },
-  { name: "Daniel Kimani", role: "Homeowner, Ruiru", img: "/images/t3.jpg", quote: "Professional, reliable and easy to work with. They delivered exactly what we needed. Highly recommended!" },
+  { name: "Kelvin Kirui", role: "Homeowner, Kericho", quote: "Rebak Solutions did an amazing job on our perimeter fence. The team was professional, on time, and the quality is excellent." },
+  { name: "Sarah Chumo", role: "Business Owner, Londiani", quote: "The chainlink fence installed on our farm is strong and well done. Great service and affordable pricing." },
+  { name: "Daniel Kimani", role: "Homeowner, Nandi", quote: "Professional, reliable and easy to work with. They delivered exactly what we needed. Highly recommended!" },
 ];
 
 export const FAQS = [
