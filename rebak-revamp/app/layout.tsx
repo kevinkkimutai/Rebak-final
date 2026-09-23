@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "Rebak Fencing Solutions",
     images: [
       {
-        url: "/about.jpg",
+        url: "/public/logo.jpg",
         width: 1170,
         height: 1170,
         alt: "Rebak Fencing Solutions concrete perimeter fence",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Rebak Fencing Solutions | Quality Fencing Solutions in Kenya",
     description: "Design and installation of barbed, concrete, wooden, chainlink and perimeter fences across Kenya. Get a free quote within 24 hours.",
     creator: "@FencingRebak",
-    images: ["/about.jpg"],
+    images: ["/public/logo.jpg"],
   },
 };
 
