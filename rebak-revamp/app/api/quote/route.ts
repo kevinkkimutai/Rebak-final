@@ -9,6 +9,21 @@ function escapeHtml(value: string) {
     .replaceAll("'", "&#039;");
 }
 
+function getQuoteRecipients() {
+  const configuredRecipients = process.env.QUOTE_TO_EMAILS || process.env.QUOTE_TO_EMAIL || "";
+  const recipients = [...new Set(
+    configuredRecipients
+      .split(/[,;\n]+/)
+      .map((email) => email.trim())
+      .filter(Boolean),
+  )];
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  return recipients.length > 0 && recipients.every((email) => emailPattern.test(email))
+    ? recipients
+    : null;
+}
+
 export async function POST(req: Request) {
   const { service, details, name, phone } = await req.json();
   if (!service || !name || !phone) {
@@ -17,7 +32,7 @@ export async function POST(req: Request) {
 
   const apiKey = process.env.RESEND_API_KEY;
   const from = process.env.RESEND_FROM_EMAIL;
-  const to = process.env.QUOTE_TO_EMAIL;
+  const to = getQuoteRecipients();
 
   if (!apiKey || !from || !to) {
     console.error("Missing Resend email configuration");
@@ -37,7 +52,7 @@ export async function POST(req: Request) {
     },
     body: JSON.stringify({
       from,
-      to: [to],
+      to,
       subject: `New quote request from ${name}`,
       text: [
         "New quote request from the Rebak Solutions website",
