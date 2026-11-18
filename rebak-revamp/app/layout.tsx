@@ -101,7 +101,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         {children}
         <Footer />
-         <Script defer src="https://maneno-os.maneno.co.ke/t.js" data-site="3jICBWIMKclNZgHE"/>
+         <Script defer src="https://maneno-os.maneno.co.ke/t.js" data-site="3jICBWIMKclNZgHE" strategy="afterInteractive" />
       </body>
     </html>
   );
