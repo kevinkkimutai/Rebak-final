@@ -97,10 +97,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
           }}
         />
-        <Script defer src="https://maneno-os.maneno.co.ke/t.js" data-site="3jICBWIMKclNZgHE"/>
+       
         <Header />
         {children}
         <Footer />
+         <Script defer src="https://maneno-os.maneno.co.ke/t.js" data-site="3jICBWIMKclNZgHE"/>
       </body>
     </html>
   );
