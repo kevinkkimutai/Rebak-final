@@ -3,6 +3,7 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Script from "next/script";
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-jakarta" });
 const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.rebakfencing.com").replace(/\/$/, "");
@@ -96,7 +97,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
           }}
         />
-        <script defer src="https://maneno-os.maneno.co.ke/t.js" data-site="3jICBWIMKclNZgHE"/>
+        <Script defer src="https://maneno-os.maneno.co.ke/t.js" data-site="3jICBWIMKclNZgHE"/>
         <Header />
         {children}
         <Footer />
